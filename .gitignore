@@ -1,0 +1,160 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+venv/
+ENV/
+env/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# =========================
+# PyTorch / ML checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+
+# =========================
+# Data files
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+nohup.out
+
+# =========================
+# VSCode / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CUDA / cache
+# =========================
+.cache/
+torch_compile_debug/
+*.cuda
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Secrets
+# =========================
+*.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# =========================
+# Docker
+# =========================
+*.pid
+*.seed
+docker-compose.override.yml
+
+# =========================
+# LaTeX
+# =========================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+
+# =========================
+# Generated figures/results
+# =========================
+figures/
+outputs/
+results/
+.crunchdao/
+artifacts/
+
+# =========================
+# Mac/Linux temp
+# =========================
+*~
